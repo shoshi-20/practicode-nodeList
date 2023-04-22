@@ -1,7 +1,7 @@
 // import express from 'express'
 const express= require('express');
 const app=express();
-const port=3000;
+const port = process.env.PORT || 3000;
 const sdk = require('api')('@render-api/v1.0#dnrc1ulf088q9j');
 sdk.auth('rnd_YaWPFFAmhImxULB61hDjZBIaXG5K');
 
